@@ -1,6 +1,5 @@
 #ALBERT FRAND NINA QUISPE
 #Operadores en Python
-
 #1. Operadores Aritmeticos
 suma = 5+5
 resta = 10-6
@@ -44,3 +43,28 @@ print(f or f)
 print('------------------NOT')
 print(not v)
 print(not f)
+
+#4. Operadores de asignacion
+#Suma y asigna (+=)
+print("---------------------------------- +=")
+edad = 20
+edad += 5
+print(edad)
+
+#Resta y asigna (-=)
+print("----------------------------------- -=")
+saldo = 100
+saldo -= 50
+print(saldo) 
+
+#Multiplica y asigna (*=)
+print("------------------  *=")
+precio = 30
+precio *= 5
+print(precio)
+
+#Divide y asigna (/=)
+print("----------------------- /=")
+total = 200
+total /= 2 
+print(total)
